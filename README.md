@@ -10,22 +10,24 @@ yarn add react-native-custom-fonts
 ---------------
 FOR IOS :
 ---------------
+````
 <key>UIAppFonts</key>
 <array>
   <string>YourFontName.ttf</string>
 </array>
+````
 
 ---------------
 HOW TO USAGE
 ---------------
 
-<Code>
+````Javascript
 import CustomFont from 'react-native-custom-fonts'
 componentDidMount() {
    let fontName = 'YourFontName' // without .tff
    CustomFont.applyCustom(fontName)
 }
-</Code>
+````
 -----------------
 
 NOTE: Please make sure your fonts assets already in android assets. 
