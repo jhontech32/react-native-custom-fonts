@@ -19,12 +19,13 @@ FOR IOS :
 HOW TO USAGE
 ---------------
 
+<Code>
 import CustomFont from 'react-native-custom-fonts'
 componentDidMount() {
    let fontName = 'YourFontName' // without .tff
    CustomFont.applyCustom(fontName)
 }
-
+</Code>
 -----------------
 
 NOTE: Please make sure your fonts assets already in android assets. 
