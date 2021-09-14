@@ -8,14 +8,14 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+"
+      "url": "git+https://github.com/raindev32/react-native-custom-fonts/issues"
     },
     "author": "jhonyraindev",
     "license": "MIT",
     "bugs": {
-      "url": ""
+      "url": "https://github.com/raindev32/react-native-custom-fonts.git"
     },
-    "homepage": "",
+    "homepage": "https://github.com/raindev32/react-native-custom-fonts#readme",
     "dependencies": {
       "lodash.wrap": "^4.1.1"
     }
