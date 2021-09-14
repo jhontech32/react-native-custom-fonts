@@ -30,6 +30,19 @@ componentDidMount() {
 ````
 -----------------
 
+````Javascript
+module.exports = {
+  project: {
+    ios: {},
+    android: {},
+  },
+  assets: ['./assets/fonts/'],
+};
+````
+
+Add react-native.config.js file into your project
+-----------------
+
 NOTE: Please make sure your fonts assets already in android assets. 
 path: android/app/src/main/assets/fonts
 
